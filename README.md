@@ -1,5 +1,10 @@
 ## Info
 
+
+The tasks were performed during the course: "Application programming in PL/SQL" and are based on the following script:
+
+- [Application programming in PL/SQL Script](./SBD_Laboratorium_2023.pdf)
+
 ### ERD
 
 ![ERD diagram](./img/ERD.png)
