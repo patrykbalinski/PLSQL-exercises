@@ -1,8 +1,7 @@
-/*
-W tabeli Przedmioty_Terminy usunąć te przedmioty, z których nie przeprowadzono
-żadnego egzaminu. Po wykonaniu zadania sprawdzić zawartość tabeli
-Przedmioty_Terminy.
-*/
+-- 242.
+-- W tabeli Przedmioty_Terminy usunąć te przedmioty, z których nie przeprowadzono
+-- żadnego egzaminu. Po wykonaniu zadania sprawdzić zawartość tabeli
+-- Przedmioty_Terminy.
 
 select * from Przedmioty_Terminy;
 

@@ -1,9 +1,8 @@
-/*
-Wykorzystując typ obiektowy T_Przedmiot_Obj z poprzedniego zadania, zdefiniować w
-bloku PL/SQL trzy obiekty, opisujące następujące przedmioty: Bazy danych, Języki baz
-danych i Hurtownie danych. Jako identyfikatory przedmiotów przyjąć wartości 101, 102 i
-103. Po zainicjowaniu wartości atrybutów obiektów, wyświetlić te wartości.
-*/
+-- 251.
+-- Wykorzystując typ obiektowy T_Przedmiot_Obj z poprzedniego zadania, zdefiniować w
+-- bloku PL/SQL trzy obiekty, opisujące następujące przedmioty: Bazy danych, Języki baz
+-- danych i Hurtownie danych. Jako identyfikatory przedmiotów przyjąć wartości 101, 102 i
+-- 103. Po zainicjowaniu wartości atrybutów obiektów, wyświetlić te wartości.
 
 declare
     v_Przedmiot_1 T_Przedmiot_Obj := T_Przedmiot_Obj(101, 'Bazy danych', '');

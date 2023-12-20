@@ -1,9 +1,8 @@
-/*
-Utworzyć typ obiektowy o nazwie T_Przedmiot_Obj, opisujący przedmiot przy pomocy
-atrybutów Id_przedmiot – NUMBER(3), Nazwa_Przedmiotelna – VARCHAR2(100),
-Nazwa_skrot – VARCHAR2(6) oraz metody Gen_Skrot, generującej skrót nazwy
-przedmiotu na podstawie pierwszych liter z wyrazów tworzących nazwę przedmiotu.
-*/
+-- 250.
+-- Utworzyć typ obiektowy o nazwie T_Przedmiot_Obj, opisujący przedmiot przy pomocy
+-- atrybutów Id_przedmiot – NUMBER(3), Nazwa_Przedmiotelna – VARCHAR2(100),
+-- Nazwa_skrot – VARCHAR2(6) oraz metody Gen_Skrot, generującej skrót nazwy
+-- przedmiotu na podstawie pierwszych liter z wyrazów tworzących nazwę przedmiotu.
 
 -- !!! Nazwa_skrot VARCHAR2(6 CHAR) !!!
 

@@ -1,13 +1,12 @@
-/*
-Utworzyć tabelę bazy danych o nazwie Analityka_Egzaminy. Tabela powinna zawierać
-informacje o liczbie niezdanych egzaminów poszczególnych studentów z poszczególnych
-przedmiotów oraz ogólnej liczbie egzaminów studenta z danego przedmiotu. W tabeli
-utworzyć kolumny opisujące studenta (identyfikator, Nazwisko i imię), przedmiot (nazwa),
-liczbę niezdanych egzaminów z przedmiotu oraz liczbę wszystkich egzaminów studenta z
-danego przedmiotu. Dane dotyczące przedmiotu oraz poszczególnych liczb należy umieścić
-w kolumnie, będącej tabelą zagnieżdżoną. Wprowadzić dane do tabeli Analityka_Egzaminy
-na podstawie danych zgromadzonych w tabelach Egzaminy, Przedmioty i Studenci.
-*/
+-- 243.
+-- Utworzyć tabelę bazy danych o nazwie Analityka_Egzaminy. Tabela powinna zawierać
+-- informacje o liczbie niezdanych egzaminów poszczególnych studentów z poszczególnych
+-- przedmiotów oraz ogólnej liczbie egzaminów studenta z danego przedmiotu. W tabeli
+-- utworzyć kolumny opisujące studenta (identyfikator, Nazwisko i imię), przedmiot (nazwa),
+-- liczbę niezdanych egzaminów z przedmiotu oraz liczbę wszystkich egzaminów studenta z
+-- danego przedmiotu. Dane dotyczące przedmiotu oraz poszczególnych liczb należy umieścić
+-- w kolumnie, będącej tabelą zagnieżdżoną. Wprowadzić dane do tabeli Analityka_Egzaminy
+-- na podstawie danych zgromadzonych w tabelach Egzaminy, Przedmioty i Studenci.
 
 drop type analityka_przedmiot force;
 drop type analityka_przedmioty force;

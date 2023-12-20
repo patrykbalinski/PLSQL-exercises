@@ -1,9 +1,8 @@
-/*
-Wykorzystując tabelę bazy danych o nazwie Analityka_Egzaminy, dla poszczególnych
-studentów wskazać te przedmioty, z których zdaniem mieli oni największe problemy (tzn.
-zdawali najwięcej razy taki przedmiot; jeśli przedmiot był zdany za pierwszym razem,
-wówczas należy uznać, że problemu z jego zdaniem nie było).
-*/
+-- 244.
+-- Wykorzystując tabelę bazy danych o nazwie Analityka_Egzaminy, dla poszczególnych
+-- studentów wskazać te przedmioty, z których zdaniem mieli oni największe problemy (tzn.
+-- zdawali najwięcej razy taki przedmiot; jeśli przedmiot był zdany za pierwszym razem,
+-- wówczas należy uznać, że problemu z jego zdaniem nie było).
 
 select a.ID_STUDENT, a.IMIE, a.NAZWISKO, p.nazwa_przedmiot, p.liczba_niezdanych_egzaminow
 from Analityka_Egzaminy a,

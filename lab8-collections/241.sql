@@ -1,10 +1,9 @@
-/*
-Utworzyć tabelę w bazie danych o nazwie Przedmioty_Terminy. Tabela powinna zawierać
-dwie kolumny: nazwę przedmiotu oraz tabelę o zmiennej długości, zawierającą daty
-egzaminów z każdego przedmiotu. Następnie wstawić do tabeli Przedmioty_Terminy
-rekordy na podstawie danych z tabeli Egzaminy i Przedmioty. Przed wstawieniem danych
-do tabeli, należy je wyświetlić, porządkując wg nazwy przedmiotu.
-*/
+-- 241.
+-- Utworzyć tabelę w bazie danych o nazwie Przedmioty_Terminy. Tabela powinna zawierać
+-- dwie kolumny: nazwę przedmiotu oraz tabelę o zmiennej długości, zawierającą daty
+-- egzaminów z każdego przedmiotu. Następnie wstawić do tabeli Przedmioty_Terminy
+-- rekordy na podstawie danych z tabeli Egzaminy i Przedmioty. Przed wstawieniem danych
+-- do tabeli, należy je wyświetlić, porządkując wg nazwy przedmiotu.
 
 drop type daty_egzaminow force;
 drop table Przedmioty_Terminy;
